@@ -1,8 +1,8 @@
 import streamlit as st
 st.set_page_config(page_title="Dashboard", page_icon='📊', layout='wide')
 
-from predict import *
-from descriptive import *
+from Func_Predict import *
+from Func_Desciptive import *
 
 # CSS Style
 with open('style.css')as f:
