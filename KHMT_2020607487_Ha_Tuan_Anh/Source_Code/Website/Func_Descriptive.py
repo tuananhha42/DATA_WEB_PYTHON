@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 from numerize.numerize import numerize
 import seaborn as sns
 import matplotlib.pyplot as plt
-from predict import *
+from Func_Predict import *
 import time
 import toml
 import plotly.graph_objects as go
